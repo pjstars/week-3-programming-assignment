@@ -95,7 +95,7 @@ int main()
             ShippingCost += 10.00;
         else if (OrderTotal < 50.00 || OrderTotal < 100.01)
             ShippingCost += 14.00;
-        else if (OrderTotal <= 100.00 || OrderTotal < 100.01)
+        else if (OrderTotal <= 100.00 || OrderTotal < 150.01)
             ShippingCost += 17.00;
         else
             ShippingCost = 0.0;
@@ -106,7 +106,7 @@ int main()
             ShippingCost += 15.00;
         else if (OrderTotal < 50.00 || OrderTotal < 100.01)
             ShippingCost += 16.00;
-        else if (OrderTotal <= 100.00 || OrderTotal < 100.01)
+        else if (OrderTotal <= 100.00 || OrderTotal < 150.01)
             ShippingCost += 20.00;
         else
             ShippingCost = 0.0;
